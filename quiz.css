@@ -92,3 +92,19 @@ button:active {
 #next:active {
   transform: scale(0.98);
 }
+.back-button {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 10px 20px;
+  background-color: #006064;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s, transform 0.1s;
+}
+
+.back-button:hover {
+  background-color: #00acc1;
+  transform: scale(1.03);
+}
